@@ -1,0 +1,13 @@
+.container{
+    width: 90%;
+    
+}
+
+.upper-nav-items li{
+    list-style: none;
+    font-size: 14px;
+    padding-right: 25px;
+}
+.upper-nav-items svg{
+    padding-top:2px;
+}
