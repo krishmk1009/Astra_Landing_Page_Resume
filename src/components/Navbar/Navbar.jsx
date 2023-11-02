@@ -10,9 +10,9 @@ const Navbar = () => {
   }
 
   return (
-    <section className='max-w-7xl container'>
+    <section className='max-w-7xl container font-my-proxi-nova-regular'>
       <Upper />
-      <div className='main-nav flex justify-between py-2'>
+      <div className='main-nav flex justify-between py-2 '>
         <div>
           <img src='https://wpastra.com/wp-content/uploads/2019/05/astra-logo.svg' />
         </div>
@@ -24,7 +24,10 @@ const Navbar = () => {
             <li>WooCommerce</li>
             <li>Testimonial</li>
             <li>Pricing</li>
-            <button className='text-white border-2 p-2 px-10 rounded-3xl'>Download</button>
+            <a href='https://github.com/krishmk1009' target='blank'>
+
+            <button className='text-white border-2 p-2 px-8 ml-5 rounded-3xl text-14'>GITHUB</button>
+            </a>
           </ul>
         </div>
         {/* Mobile menu */}

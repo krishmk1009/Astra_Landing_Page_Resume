@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'helvitica-font';
+    src: url('./assets/fonts/Helvitica/Helvetica\ Neue\ Medium\ Extended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'proxi-nova';
+    src: url('./assets/fonts/proxiNova.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'proxi-nova-regular';
+    src: url('./assets/fonts/proxiNovaRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
