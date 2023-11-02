@@ -5,16 +5,16 @@ const Features = () => {
     return (
         <div className='lg:flex lg:justify-center lg:items-center lg:h-screen '>
             <div className='lg:mx-auto'>
-                <div className='py-10 text-center'>
+                <div className='py-10 lg:text-center'>
                     <h2 className='text-38 font-my-proxi-nova px-4 leading-10'>
                     Professional Journey Highlights
                     </h2>
-                    <p className='feaure-subheading px-4 my-3 lg:w-1/2 mx-auto'>
+                    <p className='feaure-subheading px-4 my-3 lg:w-1/2 lg:mx-auto'>
                     My Professional Odyssey: Exploring Roles, Gaining Knowledge, and Thriving in Various Work Environments.
                     </p>
                 </div>
 
-                <div className='lg:Feature lg:grid justify-content: center; align-items: center; px-20'>
+                <div className='lg:Feature lg:grid justify-content: center; align-items: center; px-5 lg:px-20'>
                     <div className='col-start-1 col-end-3  '>
                         <div className='lg:my-10 lg:px-10 mb-4'>
                             <h4 className='text-20 font-semibold lg:py-3'>

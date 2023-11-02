@@ -14,7 +14,7 @@ const Navbar = () => {
       <Upper />
       <div className='main-nav flex justify-between py-2 '>
         <div>
-          <img src='https://wpastra.com/wp-content/uploads/2019/05/astra-logo.svg' />
+          <img className='pl-4 lg:pl-0' src='https://wpastra.com/wp-content/uploads/2019/05/astra-logo.svg' />
         </div>
         <div className='lg:flex hidden'>
           <ul className='flex nav-items'>
@@ -26,7 +26,7 @@ const Navbar = () => {
             <li>Pricing</li>
             <a href='https://github.com/krishmk1009' target='blank'>
 
-            <button className='text-white border-2 p-2 px-8 ml-5 rounded-3xl text-14'>GITHUB</button>
+            <button className='text-white border-2 p-2 px-8 ml-5 rounded-3xl text-14 hover:bg-white hover:text-black'>GITHUB</button>
             </a>
           </ul>
         </div>
