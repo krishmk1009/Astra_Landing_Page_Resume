@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import "./Hero.css"
+import mainHero from "../../assets/main-hero.png"
 import { FaDownload } from 'react-icons/fa';
 const styleObj = {
   fontSize: '1em', color: "black" ,marginRight:"10px"
@@ -34,7 +35,7 @@ const Hero = () => {
 
         </div>
 
-        <img className='hidden mt-10  px-10 lg:flex' src='/src/assets/main-hero.png ' />
+        <img className='hidden mt-10  px-10 lg:flex' src={mainHero} />
         {/* src/assets/main-hero.png */}
 
       </div>
