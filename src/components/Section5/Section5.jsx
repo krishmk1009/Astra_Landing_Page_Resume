@@ -1,5 +1,8 @@
 import React from 'react'
-
+import newsImg from "../../assets/news.png"
+import skills1Img from "../../assets/skills1.png"
+import skills2Img from "../../assets/skills2.png"
+import skills3Img from "../../assets/skills3.png"
 const Section5 = () => {
     return (
         <section className='section-5-main py-10 bg-slate-50'>
@@ -12,15 +15,15 @@ const Section5 = () => {
             </div>
 
             <div className='section-5-images-line lg:flex justify-center pr-5 lg:py-5'>
-                <img className='mx-4' src='/src/assets/skills1.png' alt='img-line' />
-                <img className='mx-4' src='/src/assets/skills2.png' alt='img-line' />
-                <img className='mx-4' src='/src/assets/skills3.png' alt='img-line' />
+                <img className='mx-4' src={skills1Img} alt='img-line' />
+                <img className='mx-4' src={skills2Img} alt='img-line' />
+                <img className='mx-4' src={skills3Img} alt='img-line' />
             </div>
 
             <div className='section-5-content lg:flex justify-center lg:mx-20 lg:my-20'>
 
                 <div className='lg:mx-20 lg:block hidden'>
-                    <img src='/src/assets/news.png' />
+                    <img src={newsImg} />
                 </div>
                 <div className='lg:w-1/2 mt-4' >
                     <div className='bg-white inline-block '>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Feature.css';
-
+import featureImg from "../../assets/feature-res.png"
 const Features = () => {
     return (
         <div className='lg:flex lg:justify-center lg:items-center lg:h-screen '>
@@ -42,7 +42,7 @@ const Features = () => {
                         </div>
                     </div>
                     <div className='col-start-4 col-end-9'>
-                        <img className='w-full' src='/src/assets/feature-res.png' />
+                        <img className='w-full' src={featureImg} />
                     </div>
                     <div className='col-start-10 col-end-12'>
                         <div className='col-start-1 col-end-3'>
